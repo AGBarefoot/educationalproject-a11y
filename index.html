@@ -1,0 +1,189 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR,en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Tempo de transição visual aumentado via teclado, para promover a acessibilidade cognitva. Projeto Educacional.">
+      <meta name="keywords" content="Educação, Acessibilidade cognitiva, acesso via teclado, Responsividade, front end."> 
+      <title>A11y | Education</title>
+      <link rel="stylesheet" href="css/bootstrap2.min.css">  
+      <link rel="stylesheet" href="css/responsive.css">     
+<style>  
+.navegation {
+        background-color: black;
+        padding:2.2em;
+    } 
+h1{
+    font-size:2.2em;
+}
+h2{
+    font-size:1.8em;
+}
+
+.container{
+  max-width: 50rem;
+  margin: 0 auto; 
+  padding: 0 5.0rem;
+  padding-top:4.0em;
+  font-weight: 500;
+  font-size: larger;
+  line-height: 1.9em;
+  
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+
+}
+.hero_text{
+  width: 62%;
+} 
+.inner-container {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 0 5.0rem;
+  line-height: 1.5em;
+  font-size: larger;
+  margin-bottom: 2em;
+}
+.purpose{
+    margin-top: 1.5em;
+}
+.titlepage {
+     text-align: center;
+     padding-bottom: 60px;
+}
+
+.d_flex {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+a,
+.btn {
+     text-decoration: none !important;
+     outline: none !important;
+}
+
+.call_action {
+     font-size: 17px;
+     background-color: #fff;
+     color: #000;
+     padding: 13px 0px;
+     width: 100%;
+     max-width: 190px;
+     text-align: center;
+     display: inline-block;
+     transition: ease-in all 0.5s;
+}
+#btn_call:hover{ 
+   color:rgb(202, 101, 6);   
+   border-radius: 56px;
+   transition: ease-in all 0.5s;
+}
+.call_action:focus {
+     background: #000;
+     color: #fff;
+     border-radius: 56px;
+     transition: ease-in all 1.2s;   /** Tempo maior de resposta com o teclado para contemplar a acessibilidade cognitiva **/ 
+}
+ 
+ /** Seção com botão para ação do usuário. Modo de apresentação do CSS para fins didáticos. **/
+.btn_box {
+     background: #f3e849;
+     margin-top: 90px;
+     padding: 0 40px;
+}
+
+.btn_box figure {
+     margin: 0;
+}
+
+.btn_box figure img {
+     width: 100%;
+}
+
+.btn_box h2 {
+     color:#000;
+     font-size: 3.0em;
+     line-height: 1.2em;
+     padding-bottom: 0.8em;  
+     padding-top:0.6em;
+     font-family: 'Baloo Chettan';
+     
+}
+.btn_box p {
+     font-size: 20px;
+     line-height: 28px;
+     color:#000;
+     padding-bottom: 2.2em;
+     
+}
+.offer {
+     font-size: 100px;
+}
+
+.last_section {
+        background-color: black;
+        padding:20px;
+       
+}
+</style>
+</head>
+<header>
+<nav class="navegation">  
+<li><img src="logo.png" alt="montanha"></li>   
+</nav>
+</header>
+<main>
+<div class="container">
+    <div class="row">
+      <div class="hero_text">   
+        <h1>Nosso propósito:</h1>
+            <p class="purpose">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam.</p>
+             </div>                 
+         </div>
+    </div>
+   <body class="main-layout"> 
+      <div  class="btn_box">
+        <div class="container-fluid">
+           <div class="row d_flex">             
+              <div class="col-md-6">
+                 <div class="btn_box_img">
+                    <h2>Experiência Profissional:</h2>
+                   <p>Nosso histórico profissional pode ser acessado por aqui.</p>                   
+                    <center><a id="btn_call" class="call_action" href="#" role="button"><strong>Acessar o CV</strong></a></center>
+                    <br>
+                    <br>
+                </div>
+              </div>
+              <div class="col-md-6">
+               <div class="btn_box_img">
+                  <figure><img src="images/folhas_outono.jpg" alt="folhas amareladas espalhadas no chão."/></figure>
+               </div>
+            </div>
+           </div>
+        </div>
+     </div>
+     <br>
+     <article>
+     <div class="inner-container">
+        <h2>Um Breve Texto:</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, mollitia adipisci magnam voluptatibus repellendus fuga ut repellat exercitationem eaque amet, omnis aliquam fugiat laudantium id dicta at? Consectetur iure porro illum laudantium excepturi a laborum!</p>
+          <p>Sit magni soluta porro fugit placeat eius itaque, accusamus quisquam voluptates reiciendis pariatur, vitae molestiae. Minima, quos reprehenderit autem animi, nisi necessitatibus eligendi quis modi, facilis ipsam nihil odit quaerat! Nisi doloribus harum culpa ipsam!</p>
+          <p>Sint corporis animi repudiandae. Aliquid illum, tenetur magnam provident molestiae rem doloremque aspernatur quia reiciendis est facilis enim praesentium officia sequi qui debitis exercitationem quaerat hic quos recusandae. Architecto repudiandae aperiam tempora iste saepe error.</p>
+          <p>Provident aut suscipit aspernatur doloribus illum assumenda cupiditate perferendis dolores! Obcaecati omnis magnam ipsam voluptas ipsa eos explicabo quisquam architecto similique, sunt repellendus animi a doloribus ab deserunt. Dicta neque nostrum modi, illum debitis dolorem.</p>
+        </div>
+    </article>
+    </main>
+     <footer class="last_section">       
+      </footer>   
+  </body>
+</html>
+
