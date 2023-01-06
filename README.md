@@ -1,2 +1,3 @@
 # educationalproject-a11y
-Prestação de serviço que informa sobre o trabalho do Analista de Testes de Acessibilidade. 
+What do an accessibility analyst: educational project for community. 
+(Portuguese Version)
