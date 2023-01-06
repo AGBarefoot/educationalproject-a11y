@@ -1,2 +1,2 @@
 # educationalproject-a11y
-Desenvolvimento Front End planejado para promover acessibilidade cognitiva. 
+Projeto de prestação de serviço que informa sobre o trabalho do Analista de Testes de Acessibilidade. 
